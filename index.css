@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&family=Roboto:ital@1&display=swap');
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* --------------------------------------- */
+
+body {
+  background: #f9e7dc;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+  background: #fff;
+  margin: 0 auto;
+  width: 50%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 80%;
+}
+
+nav ul li a {
+  color: white;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.plan-visit {
+  background: #ff764e;
+}
+
+.learn-more {
+  background: #5ed3eb;
+}
+
+.get-involved {
+  background: #ffcd69;
+}
+
+.container header .main-header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 50px;
+  width: 90%;
+}
+
+.container header .main-header img {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.container header section {
+  border-radius: 50%;
+  margin-left: 20px;
+  text-align: center;
+  width: 70%;
+}
+
+.container header section h1 {
+  font-size: 3rem;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.container header section p {
+  margin: 20px;
+}
+
+.container header section .second-paragraph {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container .description {
+  background: #ddb9a3;
+  color: white;
+  margin: 30px auto 30px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.container .description p {
+  font-size: 1rem;
+  padding: 15px;
+}
+
+.container .main-content {
+  text-align: center;
+}
+
+.container .main-content img {
+  width: 20%;
+}
+
+.container .main-content p {
+  margin: 10px auto;
+  width: 30%;
+}
+
+.container .main-content b {
+  font-weight: 800;
+}
+
+.container .main-content .rv {
+  margin: 40px 0 100px 0;
+}
+
+footer img {
+  height: 250px;
+  object-fit: cover;
+  object-position: 100% 0;
+  width: 100%;
+}
+
+footer nav {
+  background: #f9e7dc;
+}
